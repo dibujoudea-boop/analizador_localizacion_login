@@ -1,0 +1,96 @@
+user_id,timestamp,ip,known_location,declared_city,declared_region,declared_country,user_agent,device_type,network_type,scenario_type,expected_result
+u001,2026-05-01 08:17:00,181.50.10.24,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-01 10:06:00,181.50.10.216,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-02 10:54:00,181.50.10.15,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-02 14:34:00,181.50.10.145,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-03 09:21:00,181.50.10.145,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-03 18:15:00,181.50.10.43,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-04 14:04:00,181.50.10.3,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-04 14:49:00,181.50.10.24,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,corporate,habitual,bajo
+u001,2026-05-05 08:42:00,181.50.10.38,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-05 18:28:00,181.50.10.28,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-06 08:18:00,181.50.10.235,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-06 16:30:00,181.50.10.69,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-07 08:49:00,181.50.10.80,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-07 16:51:00,181.50.10.125,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-08 10:00:00,181.50.10.103,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,corporate,habitual,bajo
+u001,2026-05-08 16:40:00,181.50.10.136,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,corporate,habitual,bajo
+u001,2026-05-09 16:27:00,181.50.10.177,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,corporate,habitual,bajo
+u001,2026-05-09 18:50:00,181.50.10.172,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,corporate,habitual,bajo
+u001,2026-05-10 10:32:00,181.50.10.10,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,corporate,habitual,bajo
+u001,2026-05-10 14:33:00,181.50.10.173,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,residential,habitual,bajo
+u001,2026-05-12 03:15:00,103.140.8.22,Bogota,Jakarta,Jakarta,Indonesia,Unknown Linux,desktop,proxy,suspicious,alto
+u001,2026-05-12 09:15:00,186.84.22.55,Bogota,Medellin,Antioquia,Colombia,Chrome Windows,desktop,corporate,legit_unusual,medio
+u001,2026-05-12 09:25:00,91.210.17.44,Bogota,Moscow,Moscow,Russia,Firefox Linux,desktop,hosting,suspicious,alto
+u001,2026-05-12 10:00:00,186.84.22.60,Bogota,Medellin,Antioquia,Colombia,Chrome Windows,desktop,corporate,legit_unusual,medio
+u001,2026-05-13 22:45:00,181.51.18.44,Bogota,Bogota,Cundinamarca,Colombia,Chrome Windows,desktop,mobile,ambiguous,medio
+u002,2026-05-01 09:46:00,200.13.22.211,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,habitual,bajo
+u002,2026-05-01 14:42:00,200.13.22.69,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,habitual,bajo
+u002,2026-05-02 08:46:00,200.13.22.118,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,habitual,bajo
+u002,2026-05-02 10:21:00,200.13.22.143,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,habitual,bajo
+u002,2026-05-03 09:37:00,200.13.22.24,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,corporate,habitual,bajo
+u002,2026-05-03 16:49:00,200.13.22.88,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,habitual,bajo
+u002,2026-05-04 09:25:00,200.13.22.138,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,corporate,habitual,bajo
+u002,2026-05-04 10:00:00,200.13.22.231,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,habitual,bajo
+u002,2026-05-05 18:18:00,200.13.22.128,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,corporate,habitual,bajo
+u002,2026-05-05 18:52:00,200.13.22.234,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,habitual,bajo
+u002,2026-05-06 09:09:00,200.13.22.139,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,habitual,bajo
+u002,2026-05-06 18:14:00,200.13.22.141,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,habitual,bajo
+u002,2026-05-07 08:08:00,200.13.22.118,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,habitual,bajo
+u002,2026-05-07 14:48:00,200.13.22.120,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,habitual,bajo
+u002,2026-05-08 08:16:00,200.13.22.206,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,habitual,bajo
+u002,2026-05-08 18:17:00,200.13.22.113,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,corporate,habitual,bajo
+u002,2026-05-09 08:32:00,200.13.22.92,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,corporate,habitual,bajo
+u002,2026-05-09 14:00:00,200.13.22.29,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,corporate,habitual,bajo
+u002,2026-05-10 08:05:00,200.13.22.112,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,habitual,bajo
+u002,2026-05-10 16:24:00,200.13.22.20,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,corporate,habitual,bajo
+u002,2026-05-13 21:05:00,200.45.91.88,Medellin,Cartagena,Bolivar,Colombia,Safari iPhone,mobile,mobile,legit_unusual,medio
+u002,2026-05-13 21:20:00,185.220.101.3,Medellin,Amsterdam,North Holland,Netherlands,Tor Browser,desktop,proxy,suspicious,alto
+u002,2026-05-15 06:10:00,200.13.23.21,Medellin,Medellin,Antioquia,Colombia,Safari iPhone,mobile,mobile,ambiguous,medio
+u003,2026-05-01 10:16:00,190.85.77.122,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-01 18:40:00,190.85.77.105,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-02 08:40:00,190.85.77.164,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-02 16:21:00,190.85.77.108,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-03 09:23:00,190.85.77.173,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-03 14:04:00,190.85.77.185,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-04 08:48:00,190.85.77.134,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-04 18:05:00,190.85.77.213,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-05 10:49:00,190.85.77.215,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-05 16:19:00,190.85.77.39,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-06 10:08:00,190.85.77.138,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-06 16:07:00,190.85.77.163,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-07 16:24:00,190.85.77.112,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-07 18:08:00,190.85.77.118,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-08 03:10:00,104.244.72.115,Cali,Miami,Florida,United States,Chrome Android,mobile,hosting,suspicious,alto
+u003,2026-05-08 08:22:00,190.85.77.117,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-08 18:46:00,190.85.77.184,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-09 09:33:00,190.85.77.85,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-09 14:19:00,190.85.77.111,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-10 16:06:00,190.85.77.141,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-10 16:35:00,190.85.77.37,Cali,Cali,Valle del Cauca,Colombia,Edge Windows,desktop,corporate,habitual,bajo
+u003,2026-05-11 07:50:00,201.233.15.90,Cali,Bogota,Cundinamarca,Colombia,Edge Windows,desktop,corporate,legit_unusual,medio
+u003,2026-05-11 07:58:00,45.155.205.13,Cali,Warsaw,Masovian,Poland,Firefox Linux,desktop,hosting,suspicious,alto
+u004,2026-05-01 10:05:00,80.31.14.71,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,corporate,habitual,bajo
+u004,2026-05-01 10:14:00,80.31.14.230,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,corporate,habitual,bajo
+u004,2026-05-02 09:13:00,80.31.14.228,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,residential,habitual,bajo
+u004,2026-05-02 10:25:00,80.31.14.13,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,corporate,habitual,bajo
+u004,2026-05-03 08:12:00,80.31.14.131,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,residential,habitual,bajo
+u004,2026-05-03 08:12:00,80.31.14.70,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,corporate,habitual,bajo
+u004,2026-05-04 08:21:00,80.31.14.143,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,corporate,habitual,bajo
+u004,2026-05-04 09:05:00,80.31.14.155,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,residential,habitual,bajo
+u004,2026-05-05 09:50:00,80.31.14.232,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,residential,habitual,bajo
+u004,2026-05-05 09:59:00,80.31.14.229,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,corporate,habitual,bajo
+u004,2026-05-06 10:45:00,80.31.14.215,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,corporate,habitual,bajo
+u004,2026-05-06 14:46:00,80.31.14.103,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,residential,habitual,bajo
+u004,2026-05-07 14:21:00,80.31.14.103,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,residential,habitual,bajo
+u004,2026-05-07 16:59:00,80.31.14.34,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,corporate,habitual,bajo
+u004,2026-05-08 16:31:00,80.31.14.89,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,corporate,habitual,bajo
+u004,2026-05-08 18:00:00,80.31.14.231,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,corporate,habitual,bajo
+u004,2026-05-09 10:55:00,80.31.14.119,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,residential,habitual,bajo
+u004,2026-05-09 16:07:00,80.31.14.178,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,residential,habitual,bajo
+u004,2026-05-10 10:13:00,80.31.14.199,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,residential,habitual,bajo
+u004,2026-05-10 18:54:00,80.31.14.109,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,laptop,residential,habitual,bajo
+u004,2026-05-14 08:40:00,34.120.45.90,Madrid,Barcelona,Cataluna,Spain,Chrome MacOS,laptop,corporate,legit_unusual,medio
+u004,2026-05-14 08:55:00,103.87.68.70,Madrid,Singapore,Singapore,Singapore,Edge Windows,desktop,proxy,suspicious,alto
+u004,2026-05-14 23:10:00,81.44.10.32,Madrid,Madrid,Comunidad de Madrid,Spain,Chrome MacOS,tablet,residential,legit_unusual,medio
+u004,2026-05-16 12:30:00,80.31.90.12,Madrid,Valencia,Valencian Community,Spain,Chrome MacOS,laptop,residential,ambiguous,medio
