@@ -1,0 +1,18 @@
+{
+  "user_id": "u001",
+  "risk_score": 127,
+  "risk_level": "alto",
+  "recommended_action": "block_or_review",
+  "risk_reasons": [
+    "localizacion_distinta_a_la_habitual",
+    "cambio_de_pais",
+    "nuevo_dispositivo",
+    "red_sospechosa:tor",
+    "indicador_proxy",
+    "indicador_hosting",
+    "desajuste_de_zona_horaria",
+    "viaje_imposible",
+    "reputacion_ip_alta"
+  ],
+  "message": "Riesgo alto: se recomienda bloquear preventivamente o escalar el evento para revisión."
+}
