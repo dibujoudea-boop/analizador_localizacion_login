@@ -35,17 +35,55 @@ El trabajo se desarrolló siguiendo un enfoque de **Design Science Research (DSR
 
 ## Componentes principales del repositorio
 
-Este repositorio incluye los principales artefactos técnicos utilizados en la validación del prototipo:
+Este repositorio incluye los principales artefactos técnicos utilizados en el desarrollo y validación del prototipo funcional:
 
-- **Notebook en Google Colab** para la ejecución experimental del analizador.
-- **Script en Python** con la lógica de scoring y procesamiento.
-- **Dataset sintético v3** de eventos de login para la validación controlada.
+- API funcional en FastAPI para recibir eventos de login.
+- Motor de scoring contextual implementado en Python.
+- Módulo de persistencia en SQLite para guardar eventos procesados y resultados.
+- Módulo batch para procesar datasets sintéticos completos.
+- Notebook en Google Colab para validación experimental y generación de resultados.
+- Dataset sintético v4 de eventos de login para validación controlada.
+- Tablas, métricas e ilustraciones generadas automáticamente.
 
 ## Estructura del repositorio
 
 ```text
 analizador_localizacion_login/
 │
-├── analizador_localizacion_login_v3.py
-├── analizador_localizacion_login_v3_tfm.ipynb
-├── logins_sinteticos_v3_analizador_localizacion_login.csv
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── src/
+│   ├── __init__.py
+│   ├── schemas.py
+│   ├── risk_engine.py
+│   ├── storage.py
+│   ├── api_login_analyzer.py
+│   └── batch_analysis.py
+│
+├── data/
+│   └── logins_sinteticos_v4_analizador_localizacion_login.csv
+│
+├── notebooks/
+│   └── analizador_localizacion_login_v4_tfm.ipynb
+│
+├── outputs/
+│   ├── resultados_detallados_v4.csv
+│   ├── resultados_analizador_localizacion_login_v4.xlsx
+│   ├── tabla_metricas_v4.csv
+│   └── tabla_analisis_umbrales_v4.csv
+│
+├── figures/
+│   ├── ilustracion_5_distribucion_riesgo_v4.png
+│   ├── ilustracion_6_riesgo_por_escenario_v4.png
+│   ├── ilustracion_7_comparacion_esperado_obtenido_v4.png
+│   ├── ilustracion_8_matriz_confusion_v4.png
+│   ├── ilustracion_9_heatmap_escenario_riesgo_v4.png
+│   ├── ilustracion_10_histograma_score_riesgo_v4.png
+│   └── ilustracion_11_comparacion_umbrales_scoring_v4.png
+│
+└── docs/
+    ├── ejemplo_evento_login.json
+    ├── ejemplo_respuesta_analizador.json
+    └── evidencia_api_funcionando.png
