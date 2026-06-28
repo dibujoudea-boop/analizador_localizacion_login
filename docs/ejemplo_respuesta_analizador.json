@@ -11,6 +11,7 @@
     "indicador_proxy",
     "indicador_hosting",
     "desajuste_de_zona_horaria",
+    "horario_atipico",
     "viaje_imposible",
     "reputacion_ip_alta"
   ],
