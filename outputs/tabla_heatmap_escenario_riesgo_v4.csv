@@ -1,0 +1,5 @@
+scenario_type,bajo,medio,alto
+habitual,650,0,0
+legit_unusual,42,108,0
+ambiguous,33,24,43
+suspicious,0,0,100

@@ -1,0 +1,12 @@
+Métrica,Valor
+Número total de eventos,1000
+Eventos clasificados en riesgo bajo,725
+Eventos clasificados en riesgo medio,132
+Eventos clasificados en riesgo alto,143
+Acciones allow,725
+Acciones step_up_mfa,132
+Acciones block_or_review,143
+Aciertos,934
+Subestimaciones,35
+Sobrestimaciones,31
+Accuracy global,"93,40%"
