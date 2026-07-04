@@ -37,7 +37,7 @@ El trabajo se desarrolló siguiendo un enfoque de **Design Science Research (DSR
 
 Este repositorio incluye los principales artefactos técnicos utilizados en el desarrollo y validación del prototipo funcional:
 
-- API funcional en FastAPI para recibir eventos de login.
+- API funcional en FastAPI para recibir eventos individuales de login mediante el endpoint POST /login-event y consultar eventos procesados mediante GET /events/recent.
 - Motor de scoring contextual implementado en Python.
 - Módulo de persistencia en SQLite para guardar eventos procesados y resultados.
 - Módulo batch para procesar datasets sintéticos completos.
