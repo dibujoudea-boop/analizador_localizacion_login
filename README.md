@@ -72,6 +72,12 @@ analizador_localizacion_login/
 │   ├── resultados_detallados_v4.csv
 │   ├── resultados_analizador_localizacion_login_v4.xlsx
 │   ├── tabla_metricas_v4.csv
+│   ├── tabla_riesgo_v4.csv
+│   ├── tabla_acciones_v4.csv
+│   ├── tabla_comparacion_v4.csv
+│   ├── matriz_confusion_v4.csv
+│   ├── tabla_escenario_vs_riesgo_v4.csv
+│   ├── tabla_heatmap_escenario_riesgo_v4.csv
 │   └── tabla_analisis_umbrales_v4.csv
 │
 ├── figures/
@@ -81,9 +87,15 @@ analizador_localizacion_login/
 │   ├── ilustracion_8_matriz_confusion_v4.png
 │   ├── ilustracion_9_heatmap_escenario_riesgo_v4.png
 │   ├── ilustracion_10_histograma_score_riesgo_v4.png
-│   └── ilustracion_11_comparacion_umbrales_scoring_v4.png
+│   ├── ilustracion_11_comparacion_umbrales_scoring_v4.png
+│   └── ilustracion_12_ablacion_localizacion_v4.png
 │
 └── docs/
+    ├── README_EJECUCION_POWERSHELL.txt
+    ├── README_USO_EDGE_CHROME_API.txt
     ├── ejemplo_evento_login.json
     ├── ejemplo_respuesta_analizador.json
-    └── evidencia_api_funcionando.png
+    ├── evidencia_api_swagger.png
+    ├── evidencia_respuesta_riesgo_alto.png
+    ├── evidencia_events_recent.png
+    └── evidencia_servidor_uvicorn_powershell.png
