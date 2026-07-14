@@ -115,11 +115,5 @@ analizador_localizacion_login/
     ├── evidencia_events_recent.png
     └── evidencia_servidor_uvicorn_powershell.png
 
+```markdown
 ## Ejecución rápida del prototipo
-
-### 1. Crear entorno virtual
-
-Desde PowerShell, dentro de la carpeta raíz del repositorio:
-
-```powershell
-python -m venv .venv
