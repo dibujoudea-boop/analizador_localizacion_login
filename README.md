@@ -18,6 +18,12 @@ Este proyecto propone y valida un analizador capaz de estimar el riesgo contextu
 
 La idea central del trabajo es que un login puede ser técnicamente válido desde el punto de vista de usuario y contraseña, pero seguir siendo **sospechoso** si su contexto geográfico, técnico o temporal no resulta coherente con el comportamiento esperado del usuario.
 
+El repositorio conserva dos líneas complementarias de trabajo:
+
+- **Validación experimental v4:** utiliza un dataset sintético de 1000 eventos de login con variables contextuales precalculadas. Esta versión genera las métricas, tablas, matriz de confusión, histogramas, mapas de calor y demás figuras utilizadas para evaluar el desempeño del analizador.
+
+- **Capa funcional v5:** incorpora un flujo end-to-end que captura señales desde una petición HTTP, enriquece el evento con geolocalización aproximada e historial del usuario, y reutiliza el motor de scoring para generar una respuesta adaptativa. Esta capa no reemplaza la validación cuantitativa v4, sino que la complementa como evidencia funcional del prototipo.
+
 ## Objetivo
 
 Diseñar y evaluar una propuesta de análisis contextual de eventos de inicio de sesión que permita mejorar la identificación temprana de accesos anómalos o potencialmente fraudulentos, manteniendo una lógica **interpretable**, **documentada** y **académicamente reproducible**.
@@ -37,13 +43,15 @@ El trabajo se desarrolló siguiendo un enfoque de **Design Science Research (DSR
 
 Este repositorio incluye los principales artefactos técnicos utilizados en el desarrollo y validación del prototipo funcional:
 
-- API funcional en FastAPI para recibir eventos individuales de login mediante el endpoint POST /login-event y consultar eventos procesados mediante GET /events/recent.
-- Motor de scoring contextual implementado en Python.
-- Módulo de persistencia en SQLite para guardar eventos procesados y resultados.
-- Módulo batch para procesar datasets sintéticos completos.
-- Notebook en Google Colab para validación experimental y generación de resultados.
-- Dataset sintético v4 de eventos de login para validación controlada.
-- Tablas, métricas e ilustraciones generadas automáticamente.
+- **API funcional en FastAPI** para recibir eventos individuales de login mediante el endpoint `POST /login-event` y consultar eventos procesados mediante `GET /events/recent`.
+- **Capa funcional end-to-end v5** mediante el endpoint `POST /login-event/raw`, que captura señales desde la petición HTTP, enriquece el evento y lo reenvía al motor de scoring.
+- **Motor de scoring contextual** implementado en Python, encargado de calcular el score, el nivel de riesgo, la acción recomendada y las razones de riesgo activadas.
+- **Módulo de persistencia en SQLite** para guardar eventos procesados y resultados.
+- **Módulo batch** para procesar datasets sintéticos completos y generar resultados agregados.
+- **Notebook principal v4** para validación experimental, cálculo de métricas, generación de tablas y creación de figuras.
+- **Notebook de capa de captura v5** para construir y probar el flujo funcional de captura, enriquecimiento, historial, scoring y persistencia.
+- **Dataset sintético v4** de eventos de login para validación controlada.
+- **Tablas, métricas, evidencias e ilustraciones** generadas automáticamente durante la validación.
 
 ## Estructura del repositorio
 
@@ -60,13 +68,20 @@ analizador_localizacion_login/
 │   ├── risk_engine.py
 │   ├── storage.py
 │   ├── api_login_analyzer.py
-│   └── batch_analysis.py
+│   ├── batch_analysis.py
+│   ├── capture.py
+│   ├── enrichment.py
+│   ├── geo_cache.py
+│   ├── history.py
+│   ├── pipeline.py
+│   └── api_e2e.py
 │
 ├── data/
 │   └── logins_sinteticos_v4_analizador_localizacion_login.csv
 │
 ├── notebooks/
-│   └── analizador_localizacion_login_v4_tfm.ipynb
+│   ├── analizador_localizacion_login_v4_tfm.ipynb
+│   └── capa_captura.ipynb
 │
 ├── outputs/
 │   ├── resultados_detallados_v4.csv
@@ -99,3 +114,12 @@ analizador_localizacion_login/
     ├── evidencia_respuesta_riesgo_alto.png
     ├── evidencia_events_recent.png
     └── evidencia_servidor_uvicorn_powershell.png
+
+## Ejecución rápida del prototipo
+
+### 1. Crear entorno virtual
+
+Desde PowerShell, dentro de la carpeta raíz del repositorio:
+
+```powershell
+python -m venv .venv
