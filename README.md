@@ -114,6 +114,3 @@ analizador_localizacion_login/
     ├── evidencia_respuesta_riesgo_alto.png
     ├── evidencia_events_recent.png
     └── evidencia_servidor_uvicorn_powershell.png
-
-```markdown
-## Ejecución rápida del prototipo
