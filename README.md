@@ -65,35 +65,31 @@ Este repositorio incluye los principales artefactos técnicos utilizados para el
   - `GET /events/recent`, para consultar eventos procesados y verificar su trazabilidad.
 
 - **Pipeline funcional v5**, encargado de coordinar la captura de señales HTTP, el enriquecimiento geográfico, la consulta del historial, la derivación de variables contextuales, el scoring y la persistencia.
-
 - **Módulo de captura**, utilizado para obtener la dirección IP observada, el user agent, el timestamp y otras señales disponibles en la petición.
-
 - **Módulo de enriquecimiento geográfico**, utilizado para obtener una localización aproximada y otros datos contextuales asociados a la IP.
-
 - **Módulo de historial contextual**, encargado de recuperar eventos anteriores y calcular señales como distancia, tiempo transcurrido, velocidad estimada, cambio de país y novedad del entorno técnico.
-
 - **Motor de scoring contextual implementado en Python**, encargado de evaluar las señales disponibles, acumular las puntuaciones, determinar el nivel de riesgo y generar razones explicativas.
-
 - **Módulo de persistencia en SQLite**, utilizado para almacenar eventos procesados, resultados e información necesaria para el análisis histórico.
-
 - **Módulo batch**, empleado para procesar el dataset sintético completo y generar resultados agregados.
-
 - **Notebook de validación v4**, utilizado para calcular métricas, generar tablas, construir la matriz de confusión y producir las figuras de evaluación cuantitativa.
-
 - **Notebook de demostración v5**, utilizado para verificar el flujo de captura, enriquecimiento, historial, scoring, respuesta y persistencia.
-
 - **Dataset sintético v4**, compuesto por 1.000 eventos de autenticación y 24 campos contextuales y experimentales.
-
 - **Resultados, tablas, métricas, figuras y evidencias**, generados durante la validación y la demostración funcional.
-
 - **Guías de ejecución**, que explican cómo iniciar la API en PowerShell y cómo probarla desde Edge o Chrome.
 
 **Ejecución recomendada de la versión v5**
 
 La aplicación funcional debe iniciarse desde la carpeta principal del repositorio mediante:
 
-```bash
 python -m uvicorn src.api_e2e:app --reload
+Una vez iniciado el servidor, la documentación interactiva estará disponible en: http://127.0.0.1:8000/docs
+
+Para instrucciones detalladas, consulta:
+
+- Guía de ejecución en PowerShell
+- Guía de uso en Edge o Chrome
+
+La versión v5 debe ejecutarse mediante src.api_e2e:app, ya que este módulo incorpora el endpoint /login-event/raw.
 
 ## Estructura del repositorio
 
