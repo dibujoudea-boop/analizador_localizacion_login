@@ -144,8 +144,8 @@ analizador_localizacion_login/
 │   └── ilustracion_12_ablacion_localizacion_v4.png
 │
 └── docs/
-    ├── README_EJECUCION_POWERSHELL.txt
-    ├── README_USO_EDGE_CHROME_API.txt
+    ├── README_EJECUCION_POWERSHELL_V5.txt
+    ├── README_USO_EDGE_CHROME_API_V5.txt
     ├── ejemplo_evento_login.json
     ├── ejemplo_respuesta_analizador.json
     ├── evidencia_api_swagger.png
